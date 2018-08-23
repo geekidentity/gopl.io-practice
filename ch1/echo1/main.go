@@ -5,6 +5,7 @@ import (
 	"os"
 )
 
+// echo1 输出其命令行参数
 func main()  {
 	var s, sep string
 	for i := 1; i < len(os.Args); i++ {
